@@ -121,6 +121,7 @@ a {
 .planeta > .texto > p {
   color: #e1e1e1;
   font-size: .92rem;
+  font-weight: 100;
   
   margin: 0;
   mix-blend-mode: screen;
