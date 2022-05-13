@@ -20,8 +20,9 @@ export default function Index(props) {
 
   return (
       <div className="grid v-center h-center">
+
         <div className="row">
-          <h1 className="text-center">Planetas StarWars</h1>
+          <h1 className="titulo">Planetas StarWars</h1>
         </div>
 
         <>
@@ -30,7 +31,6 @@ export default function Index(props) {
 
         </>
 
-        {/* <img src="./images/Tatoooinefull.png"/> */}
       </div>
   )
 }

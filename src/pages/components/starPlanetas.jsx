@@ -1,6 +1,5 @@
 export default function StarPlanetas(props) {
 
-
     const img = {
 
         backgroundImage: "url(./images/" + props.img.replace(' ', '') + ".png)",
