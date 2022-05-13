@@ -11,6 +11,7 @@ export default function Index(props) {
         <StarPlanetas 
           nome={props.planeta.results[i].name}
           clima={props.planeta.results[i].climate}
+          img={props.planeta.results[i].name}
         />
       )
     }
@@ -28,6 +29,8 @@ export default function Index(props) {
           {renderPlaneta()}
 
         </>
+
+        {/* <img src="./images/Tatoooinefull.png"/> */}
       </div>
   )
 }

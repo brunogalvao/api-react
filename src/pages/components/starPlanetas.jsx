@@ -1,7 +1,16 @@
 export default function StarPlanetas(props) {
 
+
+    const img = {
+
+        backgroundImage: "url(./images/" + props.img.replace(' ', '') + ".png)",
+        backgroundPosition: "center center",
+        backgroundSize: "cover"
+
+    }
+
     return (
-        <div className="planeta">
+        <div style={img} className="planeta">
 
             <div className="texto">
                 <b>Nome</b>
@@ -11,7 +20,10 @@ export default function StarPlanetas(props) {
                 <b>Clima</b> 
                 <p>{ props.clima }</p>
             </div>
+
+
         </div>
 
     )
+    
 }
